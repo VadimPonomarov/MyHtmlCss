@@ -1,0 +1,32 @@
+@import "supplementary.css";
+
+* {
+    padding: 5px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 20px;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    box-shadow: 4px 4px 8px 0 rgba(34, 60, 80, 0.2);
+    border-radius: 50%;
+}
+
+ul {
+    text-align: end;
+    list-style: inside;
+}
+
+li {
+    margin: 5px;
+
+}
+hr {
+    height: 1px;
+    padding: 0;
+}

@@ -1,0 +1,234 @@
+@media screen and (max-device-width: 1199px) {
+    #menu-top ul {
+        flex-direction: column;
+        row-gap: 1px;
+        align-items: flex-end;
+
+    }
+
+    #menu-top a {
+        border-radius: 5px;
+    }
+
+    .container {
+        padding: 20px 20px;
+    }
+
+    #menu-main .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #menu-main ul {
+        justify-content: center;
+    }
+
+    #card-gallery .container {
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+
+    #square-cards .container {
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+
+    .square4 {
+        width: calc(80vw / 3);
+        height: calc(80vw / 3);
+    }
+
+    .square5 {
+        width: calc(80vw / 3);
+        height: calc(80vw / 3);
+    }
+
+    #pre-footer div {
+        width: auto;
+    }
+
+    #footer h2 {
+        text-align: center;
+    }
+
+}
+@media screen and (max-device-width: 992px) {
+    #menu-top ul {
+        flex-direction: column;
+        row-gap: 1px;
+        align-items: flex-end;
+
+    }
+
+    #menu-top a {
+        border-radius: 5px;
+    }
+
+    .container {
+        padding: 20px 20px;
+    }
+
+    #menu-main .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #menu-main ul {
+        justify-content: center;
+    }
+
+    #card-gallery .container {
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+    #card-gallery .card {
+        height: calc(80vw / 2);
+    }
+
+    #square-cards .container {
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+
+    .square4 {
+        width: calc(80vw / 3);
+        height: calc(80vw / 3);
+    }
+
+    .square5 {
+        width: calc(80vw / 3);
+        height: calc(80vw / 3);
+    }
+
+    #pre-footer div {
+        width: auto;
+    }
+
+    #footer h2 {
+        text-align: center;
+    }
+
+}
+@media screen and (max-device-width: 768px) {
+    #menu-top ul {
+        flex-direction: column;
+        row-gap: 1px;
+        align-items: flex-end;
+
+    }
+
+    #menu-top a {
+        border-radius: 5px;
+    }
+
+    .container {
+        padding: 20px 20px;
+    }
+
+    #menu-main .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #menu-main ul {
+        justify-content: center;
+    }
+
+
+    #card-gallery .card {
+        height: calc(80vw / 1);
+    }
+
+    #square-cards .container {
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+
+    .square4 {
+        width: calc(80vw / 1.7);
+        height: calc(80vw / 1.7);
+    }
+
+    .square5 {
+        width: calc(80vw / 2.1);
+        height: calc(80vw / 2.1);
+    }
+
+    #pre-footer div {
+        width: auto;
+    }
+
+    #footer h2 {
+        text-align: center;
+    }
+    #round-cards .container__flex {
+        row-gap: 20px;
+    }
+    #square-cards .container {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    #footer .card__bottom {
+        flex-direction: column;
+        row-gap: 5px;
+    }
+
+}
+@media screen and (max-device-width: 480px) {
+    #menu-top ul {
+        flex-direction: column;
+        row-gap: 1px;
+        align-items: flex-end;
+
+    }
+
+    #menu-top a {
+        border-radius: 5px;
+    }
+
+
+    #menu-main .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #menu-main ul {
+        justify-content: center;
+    }
+
+
+    .square4 {
+        width: calc(80vw / 1);
+        height: calc(80vw / 1);
+    }
+
+    .square5 {
+        width: calc(80vw / 1);
+        height: calc(80vw / 1);
+    }
+
+    #pre-footer div {
+        width: auto;
+    }
+
+    #footer h2 {
+        text-align: center;
+    }
+    #round-cards .container__flex {
+        row-gap: 20px;
+    }
+    #square-cards .container {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    #footer .card__bottom {
+        flex-direction: column;
+        row-gap: 5px;
+    }
+    .container {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+
+}

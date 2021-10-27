@@ -1,0 +1,45 @@
+a {
+    text-decoration: none;
+    color: blue;
+    font-size: 1em;
+    transition:  font-size .3s ease;
+}
+
+a:hover {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.1rem;
+
+}
+
+p {
+    text-align: justify;
+}
+
+ul {
+    list-style: none;
+}
+
+
+li {
+    padding-left: 15px;
+    font-style: italic;
+}
+
+.section_top, .section_middle, .section_bottom {
+    margin: 15px 0 15px;
+    border-radius: 10px;
+}
+
+.section_top {
+    background-color: azure;
+}
+
+.section_middle {
+    background-image: url("http://bgfons.com/upload/motion_blur_texture4935.jpg");
+    text-align: center;
+}
+
+.section_bottom {
+    background-color: darkgray;
+}

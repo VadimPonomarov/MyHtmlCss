@@ -1,0 +1,313 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*border: 1px solid white;*/
+
+}
+
+
+:root {
+    --a-color: #3AC6EA;
+    --b-color: #102B3E;
+    --g-color: #CDD7E0;
+}
+
+/*Standard selectors..............................................*/
+
+div {
+    text-align: center;
+}
+
+.div_30 {
+    min-height: 30px;
+    min-width: 30px;
+}
+
+a {
+    color: var(--b-color);
+    text-decoration: none;
+    padding: 0 15px;
+
+}
+
+p {
+    margin: 5px;
+}
+
+.p__5 {
+    padding: 15%;
+}
+
+ul {
+    list-style: none;
+}
+
+
+/*Text transformation.............................................*/
+
+.text_lc {
+    text-transform: lowercase;
+}
+
+.text_uc {
+    text-transform: uppercase
+}
+
+.fw {
+    color: white;
+}
+
+.fa {
+    color: var(--a-color)
+}
+
+.fb {
+    color: var(--b-color)
+}
+
+
+/*Background colors...............................................*/
+
+.bga {
+    background-color: var(--a-color);
+}
+
+.bgb {
+    background-color: var(--b-color);
+}
+
+.bgg {
+    background-color: var(--g-color);
+}
+
+/*Background colors...............................................*/
+
+
+.br5 {
+    border-radius: 5px;
+}
+
+.br10 {
+    border-radius: 10px;
+}
+
+.br20 {
+    border-radius: 20px;
+}
+
+.br50 {
+    border-radius: 50%;
+}
+
+.rg20 {
+    row-gap: 20px;
+}
+
+.rg10 {
+    row-gap: 10px;
+}
+
+.cg20 {
+    column-gap: 20px;
+}
+
+.cg10 {
+    column-gap: 10px;
+}
+
+.cg5 {
+    column-gap: 5px;
+}
+
+
+.h100 {
+    height: 100%;
+
+}
+
+.w100 {
+    width: 100%;
+}
+
+.w80 {
+    width: 80%;
+}
+
+.fs10 {
+    font-size: 10px;
+}
+
+/*Buttons.........................................................*/
+
+.btn100 {
+    height: auto;
+    width: 100px;
+}
+
+.btn150 {
+    height: auto;
+    width: 150px;
+}
+
+.btn {
+    height: 10px;
+    width: 10px;
+}
+
+/*Flex............................................................*/
+.nowrap {
+    flex-wrap: nowrap;
+}
+
+.fg1 {
+    flex-grow: 1;
+}
+
+.flex-column-center {
+    align-items: center;
+}
+
+.container__flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container__flex_column {
+    flex-direction: column;
+}
+
+.flex-justify-center {
+    justify-content: center;
+}
+
+.flex-justify-right {
+    justify-content: right;
+}
+
+.flex-justify-left {
+    justify-content: left;
+}
+
+.flex-justify-space-between {
+    justify-content: space-between;
+}
+
+.flex-justify-space-around {
+    justify-content: space-around;
+}
+
+.flex-align-center {
+    align-items: center;
+}
+
+.flex-align-right {
+    justify-content: right;
+}
+
+.flex-align-left {
+    justify-content: left;
+}
+
+.flex-align-space-between {
+    justify-content: space-between;
+}
+
+.flex-align-space-around {
+    justify-content: space-around;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    row-gap: 10px;
+    padding: 10px 5px 10px 5px;
+}
+
+.card__title {
+    text-align: justify;
+    margin: 2px 0;
+}
+
+.card__title_10 {
+    height: 10%;
+    width: 100%;
+}
+
+.card__title_20 {
+    height: 20%;
+    width: 100%;
+}
+
+.card__title_30 {
+    height: 30%;
+    width: 100%;
+}
+
+.card__title_40 {
+    height: 40%;
+    width: 100%;
+}
+
+.card__content {
+    text-align: justify;
+    margin: 2px 0;
+    overflow: hidden;
+}
+
+.card__content_40 {
+    height: 40%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.card__content_60 {
+    height: 60%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.card__content_80 {
+    height: 80%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.card__bottom {
+    text-align: center;
+    margin: 2px 0;
+}
+
+.card__bottom_10 {
+    height: 10%;
+    width: 100%;
+}
+
+.card__bottom_20 {
+    height: 20%;
+    width: 100%;
+}
+
+
+.square5 {
+    width: calc(80vw / 5);
+    height: calc(80vw / 5);
+}
+
+.square4 {
+    width: calc(80vw / 4);
+    height: calc(80vw / 4);
+}
+
+
+.container {
+    width: 100%;
+    padding: 20px 10%;
+    overflow: hidden;
+}
+
+.container__visible {
+    border: 3px solid var(--a-color);
+}
