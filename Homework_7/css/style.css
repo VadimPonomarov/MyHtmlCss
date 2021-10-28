@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.div {
+    border: 1px solid white;
+}
+#header {
+    position: relative;
+    height: 800px;
+    background-image: url("../image/bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.navbar {
+    padding: 20px 10%;
+    min-height: 30px;
+}
+
+body {
+    line-height: 1;
+    /*font-family: 'Roboto', sans-serif;*/
+    font-family: 'Tinos', serif;
+    background: #E5E5E5;
+    padding: 2%;
+}
+.navbar__cart {
+    width: 13px;
+    height: 13px;
+}
+.line__vertical {
+    margin: 0 20px;
+    width: 0;
+    height: 70px;
+    border: 1px solid white;
+}
+.navbar__phone:before {
+    content: url("../image/phone.png");
+    width: 23px;
+    height: 23px;
+    margin-right: 5px;
+}
+
+.navbar_right {
+    max-width: 155px;
+    color: white;
+    font-size: 16px;
+}
+.header__button {
+    min-width: 137px;
+    padding: 18px;
+    margin: 0 20px;
+    background-color: #FF7400;
+    color: white;
+}
+.header__body {
+    position: relative;
+    top: 170px;
+    left: 12%;
+    width: 556px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Tinos', serif;
+    color: #FF7400;
+}
+
+.header__body_top {
+    font-size: 50px;
+    line-height: 57.5px;
+}
+
+.header__body_second {
+    font-size: 80px;
+    line-height: 91.99px;
+}
+
+
+.header__body_bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 24.51px;
+    margin-bottom: 28px;
+}
+
+.header__body_bottom:before,
+.header__body_bottom:after {
+    content: '';
+    width: 61px;
+    height: 0;
+    border: 1px solid white;
+    color: white;
+    margin: 0 5px;
+}
+
+.header__cards {
+    position: relative;
+    width: 1138px;
+    max-width: 95%;
+    padding: 20px;
+    top: -110px;
+    column-gap: 3%;
+}
+
+.h-card {
+    padding-top: 30px;
+    font-size: 26px;
+    background: white;
+    min-height: 348px;
+
+}
+
+.h-card__icon {
+    height: 87px;
+}
+
+.h-card__header {
+
+    color: #2C2C2C;
+}
+.h-card__header span {
+    color: #BC9060;
+}
+
+.h-card__body {
+    color: #656363;
+
+}
+
+
