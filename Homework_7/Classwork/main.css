@@ -1,0 +1,149 @@
+/*
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Noto Sans Display', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Tinos', serif;
+*/
+
+* {
+    margin: 0;
+    pading: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    /*background: #CDD7E0;*/
+}
+
+/*div {
+    background: #CDD7E0;
+}*/
+
+.row {
+    /*padding: 0 1vw;*/
+}
+
+
+.logo {
+    width: 100%;
+    height: auto;
+}
+
+nav ul {
+    column-gap: 50px;
+    font-size: 17px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.card, .img-thumbnail {
+    border: none;
+}
+
+.card {
+    height: 100%;
+    align-items: center;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.card-title {
+    Font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 62px;
+    text-align: left;
+    letter-spacing: -0.4px;
+    color: #1652AC;
+    max-width: 515px;
+}
+
+.card-subtitle {
+    margin: 30px 0;
+    width: 227px;
+    height: 0;
+    border: 2px solid #EDEFF3;
+
+}
+
+.card-text {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: left;
+    max-width: 515px;
+
+}
+
+#under-header-2 h5 {
+    font-size: 20px;
+}
+
+#under-header-2 p {
+    font-size: 17px;
+    font-weight: 400;
+}
+
+#under-header-2 p span {
+    font-weight: 700;
+}
+
+#under-header-3 .card {
+    background-color: #1652AC;
+}
+
+#under-header-3 .card-body {
+
+    text-align: left;
+
+}
+
+#under-header-3 .card-title-3 {
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 40px;
+    color: #FBFDFF;
+}
+
+#under-header-3 .card-text-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: normal;
+    Font-size: 17px;
+    Line-height: 32px;
+    Text-Align: Left;
+    color: #FBFDFF;
+}
+
+
+#under-header-4 img {
+    position: relative;
+    right: -80px;
+}
+
+#under-header-4 .card-title {
+    font-family: 'Noto Sans', sans-serif;
+    Font-size: 20px;
+    text-transform: uppercase;
+    Line-height: 40px;
+    padding-bottom: 30px;
+}
+
+#under-header-4 .card-text {
+    font-family: 'Noto Sans', sans-serif;
+    Font-size: 17px;
+    Line-height: 32px;
+    font-weight: normal;
+}
