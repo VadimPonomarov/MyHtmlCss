@@ -1,0 +1,71 @@
+@media screen and (max-width: 1400px) {
+    #under-header-3 .card {
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #under-header-3 .card {
+        padding: 0 20px;
+    }
+
+    #under-header-4 .img-thumbnail {
+        visibility: hidden;
+    }
+
+    #under-header-4 div .img {
+        background-image: url("image/IconHotToCold 1.jpg");
+        background-size: 200%;
+        background-position: center;
+    }
+
+    #under-header-4 .row {
+        background-size: 200%;
+        background-image: url("./image/IconHotToCold 1.jpg");
+        background-position: center;
+    }
+
+    #over-footer p {
+        text-align: left;
+
+    }
+
+    #elem-1 {
+        order: 2;
+    }
+
+    #elem-2 {
+        order: 3;
+    }
+
+    #elem-3 {
+        order: 1;
+        margin: 0 auto;
+    }
+
+
+}
+
+@media screen and (max-width: 768px) {
+    #footer {
+        flex-direction: column;
+    }
+    #under-header-1 .card-title {
+
+        font-size: 34px;
+
+    }
+    #footer .card-title {
+        border: 1px solid red;
+        font-size: 26px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #under-header-1 .card-title {
+
+        font-size: 28px;
+
+    }
+}
+
+
