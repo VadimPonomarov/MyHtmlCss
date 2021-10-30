@@ -7,12 +7,23 @@ font-family: 'Tinos', serif;
 
 * {
     margin: 0;
-    pading: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
 
+
+section {
+    margin-bottom: 60px;
+}
+
+.fp {
+    color: blue;
+}
+
+
 body {
+    padding: 1%;
     /*background: #CDD7E0;*/
 }
 
@@ -21,9 +32,8 @@ body {
 }*/
 
 .row {
-    /*padding: 0 1vw;*/
+    padding: 0 20px;
 }
-
 
 .logo {
     width: 100%;
@@ -41,34 +51,31 @@ nav ul {
 }
 
 .card {
-    height: 100%;
-    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.card-title {
+    Font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+    text-align: left;
+    color: #1652AC;
+    min-height: 0;
+
 }
 
 .card-body {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: flex-start;
-}
-
-.card-title {
-    Font-family: 'Noto Sans', sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 48px;
-    line-height: 62px;
-    text-align: left;
-    letter-spacing: -0.4px;
-    color: #1652AC;
-    max-width: 515px;
+    min-height: 0;
 }
 
 .card-subtitle {
     margin: 30px 0;
-    width: 227px;
     height: 0;
     border: 2px solid #EDEFF3;
+    min-height: 0;
 
 }
 
@@ -77,14 +84,20 @@ nav ul {
     font-size: 17px;
     font-style: normal;
     font-weight: 600;
-    line-height: 32px;
     text-align: left;
-    max-width: 515px;
 
 }
 
-#under-header-2 h5 {
+#under-header-1 .card-title {
+
+    font-size: 48px;
+
+
+}
+
+#under-header-2 .card-title {
     font-size: 20px;
+    text-align: left;
 }
 
 #under-header-2 p {
@@ -96,17 +109,23 @@ nav ul {
     font-weight: 700;
 }
 
+#under-header-3 img {
+    width: 100%;
+}
+
 #under-header-3 .card {
     background-color: #1652AC;
+    padding: 0 10%;
+    width: 100%;
+    height: 100%;
 }
 
 #under-header-3 .card-body {
-
     text-align: left;
-
 }
 
 #under-header-3 .card-title-3 {
+    min-height: 0;
     font-family: 'Noto Sans', sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -116,8 +135,7 @@ nav ul {
 }
 
 #under-header-3 .card-text-3 {
-    display: flex;
-    flex-direction: column;
+
     justify-content: center;
     font-family: 'Noto Sans', sans-serif;
     font-weight: normal;
@@ -127,10 +145,8 @@ nav ul {
     color: #FBFDFF;
 }
 
-
-#under-header-4 img {
-    position: relative;
-    right: -80px;
+#under-header-4 {
+    overflow:hidden;
 }
 
 #under-header-4 .card-title {
@@ -146,4 +162,103 @@ nav ul {
     Font-size: 17px;
     Line-height: 32px;
     font-weight: normal;
+}
+
+
+#under-header-5 {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 500;
+    Font-size: 19px;
+    Line-height: 32px;
+    Letter-spacing: -0.4px;
+
+}
+
+#under-header-5 img {
+    max-width: 71px;
+    max-height: 56px;
+    text-align: left;
+
+}
+
+#under-header-6 ul {
+    counter-reset: myCounter;
+}
+
+#under-header-6 ul li {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 17px;
+    text-align: left;
+    margin: 10px;
+    width: 100%;
+
+}
+
+#under-header-6 ul li:before {
+    padding: 0;
+    counter-increment: myCounter;
+    content: counter(myCounter);
+    color: black;
+    font-size: 10px;
+    display: inline-block;
+    text-align: center;
+    line-height: 17px;
+    margin: 5px 10px;
+    width: 17px;
+    height: 17px;
+    border: 1px solid;
+    border-radius: 50%;
+}
+
+#under-header-6 ul {
+    list-style: none;
+}
+
+
+.buttons .button {
+    padding: 5px;
+}
+#under-header-8 .btn {
+}
+
+#under-header-8 .btn {
+    height: 64px;
+    width: 100%;
+    background: #004FC7;
+    border-radius: 12px;
+}
+
+#over-footer {
+    display: flex;
+    align-items: center;
+    height: 500px;
+}
+
+#over-footer .card-title {
+    font-size: 34px;
+}
+
+#over-footer .card-text {
+    font-size: 17px;
+    line-height: 32px;
+    color: #464C53
+}
+
+#over-footer .logo {
+    width: 197px;
+
+}
+
+#footer {
+    color: #A3ADBA;
+}
+
+#footer .card-header,
+#footer .card-body {
+    display: flex;
+    align-self: flex-start;
+}
+.card-header {
+    background: white;
+    border: none;
 }
