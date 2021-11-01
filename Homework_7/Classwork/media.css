@@ -1,6 +1,7 @@
 @media screen and (max-width: 1400px) {
     #under-header-3 .card {
-    }
+}
+
 }
 
 @media screen and (max-width: 992px) {
@@ -49,11 +50,13 @@
     #footer {
         flex-direction: column;
     }
+
     #under-header-1 .card-title {
 
         font-size: 34px;
 
     }
+
     #footer .card-title {
         border: 1px solid red;
         font-size: 26px;
