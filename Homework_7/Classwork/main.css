@@ -11,10 +11,8 @@ font-family: 'Tinos', serif;
     box-sizing: border-box;
     overflow: unset;
 }
-
-
-section {
-    margin-bottom: 60px;
+p {
+    padding: 2%;
 }
 
 .fp {
@@ -22,22 +20,7 @@ section {
 }
 
 
-body {
-    padding: 1%;
 
-/*background: #CDD7E0;*/
-
-
-
-}
-
-/*div {
-    background: #CDD7E0;
-}*/
-
-.row {
-    padding: 0 20px;
-}
 
 .logo {
     width: 100%;
@@ -150,9 +133,10 @@ nav ul {
 }
 
 #under-header-4 div .img {
-    height: 100%;
+    width: 50%;
+    height: 200px;
     background-image: url("image/IconHotToCold 1.jpg");
-    background-position: left;
+    background-position: center;
 }
 
 #under-header-4 .card-title {

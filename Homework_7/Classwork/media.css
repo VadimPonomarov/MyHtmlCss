@@ -14,18 +14,15 @@
     }
 
     #under-header-4 div .img {
+        display: block;
+        width: 100%;
+        height: 300px;
         background-image: url("image/IconHotToCold 1.jpg");
-        background-size: 200%;
         background-position: center;
+        background-size: 200% 200%;
     }
 
-    #under-header-4 .row {
-        background-size: 200%;
-        background-image: url("./image/IconHotToCold 1.jpg");
-        background-position: center;
-    }
-
-    #over-footer p {
+    #over-footer .container p {
         text-align: left;
 
     }
