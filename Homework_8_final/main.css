@@ -1,0 +1,246 @@
+
+:root {
+
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.body {
+
+}
+
+*:before {
+    padding: 0 10px;
+}
+
+section {
+    /*border: 1px solid blue;*/
+    /*min-height: 160px;*/
+
+}
+
+
+div {
+    min-height: 60px;
+    padding: 5px;
+}
+
+p {
+    padding-right: 5px;
+}
+
+span {
+    padding: 0 5px;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    background: #005BB9;
+    color: white;
+}
+
+.button__min {
+    min-width: 4rem;
+}
+
+
+.text-dark {
+    color: #0F2438;
+}
+
+.bg-dark {
+    background: #0F2438 !important;
+    opacity: 90%;
+}
+
+.text-blue {
+    color: #005BB9;
+}
+
+.border-blue {
+    border: 1px solid #005BB9;
+}
+
+.text-yellow {
+    color: #FFB800 !important;
+}
+
+.text-grey {
+    color: #C2C5DA;
+}
+
+.text-crossed {
+    text-decoration: line-through;
+}
+
+.bg-blue {
+    background: #005BB9;
+}
+
+.btn-20 {
+    color: white;
+    border-radius: 20px;
+}
+
+.btn-6 {
+    color: white;
+    border-radius: 6px;
+}
+
+.card {
+    display: flex;
+    /*flex-direction: column;*/
+    justify-content: stretch;
+    border: none;
+}
+
+.card__title {
+    font-size: 20px;
+}
+
+.card__body {
+    font-size: 14px;
+}
+
+.card__bottom {
+
+}
+
+#section-3 {
+    align-items: center;
+}
+
+
+.wats-app:before {
+    content: url("images/whatsapp.png");
+}
+
+.my-toggler:after {
+    content: url("images/next.svg");
+    padding-left: 5px;
+}
+
+
+.btn-catalogue:before {
+    content: url("images/boorger-1.png");
+
+}
+
+.btn-cart:before {
+    content: url("images/cart-1.png");
+
+}
+
+.carousel-inner {
+    position: relative;
+    /*display: flex;
+    align-items: center;*/
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 5%;
+    left: 15%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: center;
+}
+
+#My-carousel-1 {
+    background: #6D8AD4;
+}
+
+#My-carousel-1 h5 {
+    color: #0A1A2C;
+}
+
+#My-carousel-1 p {
+    color: #717171;
+}
+
+#My-carousel-1 h2 {
+    color: #005BB9;
+}
+
+.br20 {
+    border-radius: 20px;
+}
+
+#section-7 .card-title {
+    color: white;
+    background: #0C1A2A;
+}
+
+#section-7 .card-subtitle {
+    color: #005BB9;
+    font-size: 16px;
+}
+
+#section-7 .card-text {
+    font-size: 16px;
+
+}
+
+#section-7 .card-body {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    align-content: flex-start;
+}
+
+#section-9, #section-9 ul li {
+    background: #0F2438;
+    color: white;
+}
+
+.list-group li:first-child {
+    color: #868DAC !important;
+    text-transform: uppercase;
+}
+
+.socials {
+    display: flex;
+    column-gap: 50px;
+    justify-content: flex-end;
+}
+
+#header {
+    font-size: 14px;
+}
+
+.navbar-nav {
+    align-items: center;
+    font-size: 16px;
+    padding: 0;
+}
+.navbar-brand {
+    display: flex;
+    font-size: 16px;
+    padding: 0;
+    align-items: center;
+}
+
+.navbar-nav a {
+    color: white;
+    font-size: 16px;
+    padding: 0;
+}
+
+#section-4 .wrap1 .card div,
+#section-4 .wrap1 .card p {
+    padding: 0 2px;
+}
+
+
+#section-4 .container-fluid {
+    overflow: hidden;
+}

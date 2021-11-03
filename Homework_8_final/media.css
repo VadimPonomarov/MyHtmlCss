@@ -1,0 +1,25 @@
+@media screen and (max-width: 992px) {
+
+    .burger ul li {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #section-4 .wrap1 {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+    .socials {
+    column-gap: 50px;
+    justify-content: flex-start !important;
+}
+
+}
+
+
+
