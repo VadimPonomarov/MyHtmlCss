@@ -10,16 +10,16 @@
 
 @media screen and (max-width: 767px) {
     #section-4 .wrap1 {
-    display: flex;
-    flex-wrap: nowrap !important;
+        display: flex;
+        flex-wrap: nowrap !important;
         overflow: hidden;
 
-}
+    }
 
     .socials {
-    column-gap: 50px;
-    justify-content: flex-start !important;
-}
+        column-gap: 50px;
+        justify-content: flex-start !important;
+    }
 
 }
 

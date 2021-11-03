@@ -98,17 +98,21 @@ button {
     /*flex-direction: column;*/
     justify-content: stretch;
     border: none;
+    padding: 0;
 }
 
 .card__title {
     font-size: 20px;
+    padding: 0;
 }
 
 .card__body {
     font-size: 14px;
+    padding: 0;
 }
 
 .card__bottom {
+    padding: 0;
 
 }
 
