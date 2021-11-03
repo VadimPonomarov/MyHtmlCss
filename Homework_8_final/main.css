@@ -244,3 +244,10 @@ button {
 #section-4 .container-fluid {
     overflow: hidden;
 }
+.container-fluid {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.navbar {
+    z-index: 1000;
+}

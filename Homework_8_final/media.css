@@ -1,4 +1,4 @@
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 991px) {
 
     .burger ul li {
         display: flex;
@@ -8,10 +8,11 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     #section-4 .wrap1 {
     display: flex;
     flex-wrap: nowrap;
+        overflow: hidden;
 }
 
     .socials {
