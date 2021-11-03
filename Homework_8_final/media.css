@@ -11,7 +11,7 @@
 @media screen and (max-width: 767px) {
     #section-4 .wrap1 {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: nowrap !important;
         overflow: hidden;
 
 }
